@@ -8,7 +8,7 @@ extern const int SCREEN_WIDTH = 1000;
 extern const int SCREEN_HEIGHT = 1000;
 
 int main() {
-	sf::RenderWindow window(sf::VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Raycaster", sf::Style::Close);
+	sf::RenderWindow window(sf::VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Raycasting Engine", sf::Style::Close);
 	sf::Event event;
 	Map map(&window);
 
